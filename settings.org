@@ -30,3 +30,13 @@
 #+BEGIN_SRC emacs-lisp
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 #+END_SRC
+
+** word bold
+
+[[https://stackoverflow.com/questions/1218238/how-to-make-part-of-a-word-bold-in-org-mode][How to make part of a word bold in org-mode]]
+
+#+BEGIN_SRC emacs-lisp
+(setcar org-emphasis-regexp-components " \t('\"{[:alpha:]")
+(setcar (nthcdr 1 org-emphasis-regexp-components) "[:alpha:]- \t.,:!?;'\")}\\")
+(org-set-emph-re 'org-emphasis-regexp-components org-emphasis-regexp-components)
+#+END_SRC
