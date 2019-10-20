@@ -2,13 +2,22 @@
 #+AUTHOR: 5pecia1 <pdpxpd@gmail.com>
 
 * Keyboard Shortcuts
-
 ** Split window
 - right c-x 3
 - below c-x 2
 
+* View
+** font and size
+#+BEGIN_SRC emacs-lisp
+(set-frame-font "D2Coding 12" nil t)
+#+END_SRC
+
+** line number
+#+BEGIN_SRC emacs-lisp
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode))
+#+END_SRC
 * evil
-  
 ** init
 
 #+BEGIN_SRC emacs-lisp
@@ -18,7 +27,6 @@
 #+END_SRC
 
 * Org Mode
-
 ** reqire
 
 #+BEGIN_SRC emacs-lisp
