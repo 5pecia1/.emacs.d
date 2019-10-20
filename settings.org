@@ -1,0 +1,16 @@
+#+TITLE: Setting file
+#+AUTHOR: 5pecia1 <pdpxpd@gmail.com>
+
+* Org Mode
+
+** reqire
+
+#+BEGIN_SRC emacs-lisp
+(require 'org)
+#+END_SRC
+
+** use org mode
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+#+END_SRC
