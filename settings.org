@@ -1,4 +1,4 @@
-#+TITLE: Setting file
+#+TITLE: Emacs Setting file
 #+AUTHOR: 5pecia1 <pdpxpd@gmail.com>
 
 * Keyboard Shortcuts
