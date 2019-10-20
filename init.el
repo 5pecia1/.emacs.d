@@ -1,5 +1,7 @@
+;https://stackoverflow.com/questions/10092322/how-to-automatically-install-emacs-packages-by-specifying-a-list-of-package-name
 ; list the packages you want
 (setq package-list '(
+		     wakatime-mode
 		     ))
 
 ; list the repositories containing them
@@ -40,4 +42,15 @@ There are two things you can do about this warning:
 (org-babel-load-file
  (expand-file-name "settings.org"
                    user-emacs-directory))
-
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages (quote (wakatime-mode))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

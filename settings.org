@@ -1,7 +1,7 @@
 #+TITLE: Emacs Setting file
 #+AUTHOR: 5pecia1 <pdpxpd@gmail.com>
 
-* Keyboard Shortcuts
+* Keyboard ShoRtcuts
 ** Split window
 - right c-x 3
 - below c-x 2
@@ -17,6 +17,7 @@
 (when (version<= "26.0.50" emacs-version )
   (global-display-line-numbers-mode))
 #+END_SRC
+
 * evil
 ** init
 
@@ -47,4 +48,9 @@
 (setcar org-emphasis-regexp-components " \t('\"{[:alpha:]")
 (setcar (nthcdr 1 org-emphasis-regexp-components) "[:alpha:]- \t.,:!?;'\")}\\")
 (org-set-emph-re 'org-emphasis-regexp-components org-emphasis-regexp-components)
+#+END_SRC
+
+* WakaTime
+#+BEGIN_SRC emacs-lisp
+(global-wakatime-mode)
 #+END_SRC
