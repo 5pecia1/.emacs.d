@@ -7,6 +7,11 @@
 - below c-x 2
 
 * View
+** theme
+#+BEGIN_SRC emacs-lisp
+(load-theme 'dracula t)
+#+END_SRC
+
 ** font and size
 #+BEGIN_SRC emacs-lisp
 (set-frame-font "D2Coding 12" nil t)

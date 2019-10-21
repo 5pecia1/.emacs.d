@@ -2,6 +2,7 @@
 ; list the packages you want
 (setq package-list '(
 		     wakatime-mode
+		     dracula-theme
 		     ))
 
 ; list the repositories containing them
@@ -54,3 +55,4 @@ There are two things you can do about this warning:
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
