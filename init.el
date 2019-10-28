@@ -1,8 +1,8 @@
 ;https://stackoverflow.com/questions/10092322/how-to-automatically-install-emacs-packages-by-specifying-a-list-of-package-name
 ; list the packages you want
 (setq package-list '(
-		     wakatime-mode
-		     dracula-theme
+		     wakatime-mode; https://wakatime.com/emacs
+		     dracula-theme; https://draculatheme.com/emacs/
 		     ))
 
 ; list the repositories containing them
