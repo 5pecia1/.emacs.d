@@ -1,7 +1,7 @@
 #+TITLE: Emacs Setting file
 #+AUTHOR: 5pecia1 <pdpxpd@gmail.com>
 
-* Keyboard ShoRtcuts
+* Keyboard Shortcuts
 ** Split window
 - right c-x 3
 - below c-x 2
